@@ -38,6 +38,7 @@ text-decoration: none;
     text-decoration: none;
     padding: 10px 20px;
     border-radius: 10px;
+    color: aliceblue;
 }
 .Enlaces a:hover{
 background-color: aqua;
@@ -71,10 +72,12 @@ transition: ease-in .2s;
 } */
 .contenedor-textos  h1{
     font-size: 60px;
+    color: aliceblue;
 }
 .contenedor-textos p{
     margin: 15px 0 30px 0;
     font-size: 18px;
+    color: white;
 }
 .ilustracionesLandingPage{
     width: 30%;
@@ -103,4 +106,18 @@ color:aqua;
 }
 .Redes i:hover{
     color: #1B1934;
+    transition: ease-in .2s;
+    }
+    .accion{
+        display: inline-block;
+        background: steelblue;
+        padding: 15px 0;
+        width: 150px;
+        color: #fff;
+        border-radius: 10px;
+        text-decoration: none;
+    }
+    .accion:hover{
+        background: #1B1934;
+        transition: ease-in .2s;  
     }
