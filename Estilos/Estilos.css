@@ -2,9 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 body{
     font-family: 'montserrat';
+    background: linear-gradient(180deg, rgba(25,28,50,1) 25%, rgba(70,77,126,1) 100%);
 }
 /* .menu-nav{
     text-align: right;
@@ -14,23 +16,25 @@ body{
  .MenuNavegacion{
     display: flex;
     justify-content: space-between;
-    padding: 2em;
+    padding-top: 2em;
     align-items: center;
+   
 }
 .logo{
     height: inherit;
     /* height: 100px; */
-    width: 100px;
+    width: 150px;
+    margin-left: 1em;
 }
 .Enlaces{
 display: flex;
-width: 30%;
+width: 40%;
 justify-content: space-around;
 list-style: none;
 text-decoration: none;
 }
 .Enlaces a{
-    font-size: 20px;
+    font-size: 25px;
     text-decoration: none;
     padding: 10px 20px;
     border-radius: 10px;
@@ -83,3 +87,20 @@ transition: ease-in .2s;
 .ilustracionesLandingPage :nth-child(1){
     width: 90%;
 }
+.forma{
+    position: absolute;
+    z-index: -1;
+    right: 0;
+    width: 90%;
+}
+.Redes{
+    margin: 0 auto;
+    display: grid;
+}
+.Redes i{
+font-size: 60px;
+color:aqua;
+}
+.Redes i:hover{
+    color: #1B1934;
+    }
