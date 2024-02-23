@@ -121,3 +121,21 @@ color:aqua;
         background: #1B1934;
         transition: ease-in .2s;  
     }
+    .ContainerTrabajos{
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        padding-bottom: 2em;
+    }
+
+    .ContainerTrabajos img{
+        display: block;
+        object-fit: cover;
+        width: 552px;
+        height:552px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+        border-radius: 10px;
+    }
+    .ContainerTrabajos img:hover{
+     background: #1B1934;
+    }
