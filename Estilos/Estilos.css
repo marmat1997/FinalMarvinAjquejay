@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'montserrat';
+}
+/* .menu-nav{
+    text-align: right;
+    padding: 0;
+} */
+
+ .MenuNavegacion{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    height: 100px;
+    width: 100px;
+}
+.Enlaces{
+display: flex;
+width: 30%;
+justify-content: space-around;
+list-style: none;
+text-decoration: none;
+}
+.Enlaces a{
+    
+    text-decoration: none;
+}
