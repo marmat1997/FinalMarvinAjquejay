@@ -144,7 +144,7 @@ color:aqua;
         position: relative;
         height: fit-content;
         margin: 10px;
-        cursor: pointer;
+        /* cursor: pointer; */
     }
     .ContainerTrabajos .proyecto img{
         width: 100%;
