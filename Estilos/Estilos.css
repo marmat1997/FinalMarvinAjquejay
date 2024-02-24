@@ -105,7 +105,7 @@ font-size: 60px;
 color:aqua;
 }
 .Redes i:hover{
-    color: #1B1934;
+    color: #464d7e;
     transition: ease-in .2s;
     }
     .accion{
@@ -156,11 +156,12 @@ color:aqua;
         width: 100%;
         height: 100%;
         text-align: center;
-        background: linear-gradient(rgba(28,182,152,.8), rgba(28,182,152,.8));
+        background: linear-gradient(rgba(25, 28, 50, 0.9), rgba(70, 77, 126, 0.9));
+        /* rgba(25,28,50,1) 25%, rgba(70,77,126,1) */
         display: flex;
         flex-direction: column;
         justify-content: center;
-        transition: 1s;
+        transition: 0.5s;
         font-size: 18px;
         letter-spacing: 3px;
         opacity: 0;
@@ -168,8 +169,13 @@ color:aqua;
     
 .ContainerTrabajos .proyecto .overlay h3{
     margin-bottom: 20px;
-    transition: 1s;
+    transition: 0.5s;
+    color: #fff;
 }
+.ContainerTrabajos .proyecto .overlay p{
+    color: #fff;
+}
+
 .ContainerTrabajos .proyecto .overlay:hover{
     opacity: 1;
 }
