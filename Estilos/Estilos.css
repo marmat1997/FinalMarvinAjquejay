@@ -180,6 +180,7 @@ color:aqua;
     margin-bottom: 20px;
     transition: 0.5s;
     color: #fff;
+    padding-bottom: 1em;
 }
 .ContainerTrabajos .proyecto .overlay p{
     color: #fff;
