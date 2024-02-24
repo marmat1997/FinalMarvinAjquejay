@@ -127,7 +127,16 @@ color:aqua;
         flex-wrap: wrap;
         padding-bottom: 2em;
     }
-
+    .tituloPortafolio{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 2em;
+    }
+   .tituloPortafolio h2{
+    color: #fff;
+    font-size: 30px;
+   }
     .ContainerTrabajos img{
         display: block;
         object-fit: cover;
