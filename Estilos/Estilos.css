@@ -283,6 +283,7 @@ font-size: 16px;
     background-size: cover;
     background-position: center;
     display: flex;
+    align-items: center;
 }
 .servicio1Acerca h3{
     font-size: 20px;
@@ -297,6 +298,7 @@ font-size: 16px;
     background-size: cover;
     background-position: center;
     display: flex;
+    align-items: center;
 }
 .servicio2Acerca h3{
     font-size: 20px;
@@ -311,6 +313,7 @@ font-size: 16px;
     background-size: cover;
     background-position: center;
     display: flex;
+    align-items: center;
 }
 .servicio3Acerca h3{
     font-size: 20px;
