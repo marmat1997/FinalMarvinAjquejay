@@ -248,9 +248,14 @@ font-size: 16px;
 .Tecnologia{
     padding-top: 2em;
 }
-.Tecnologia img{
+.Tecnologia img {
+    /* transition: filter 0.3s ease;
+    filter: drop-shadow(0 0 10px white); */
+  }
+  
+  .Tecnologia img:hover{
+    /* transition: filter 0.3s ease;
+    filter: drop-shadow(0 0 10px 5px rgba(255, 255, 255, 0.5)); */
     transition: filter 0.3s ease;
-}
-.Tecnologia img:hover{
-    filter: drop-shadow(0 0 10px 5px rgba(255, 255, 255, 0.5));
-}
+    filter: drop-shadow(0 0 10px white);
+  }
