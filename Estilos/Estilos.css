@@ -237,3 +237,20 @@ color: white;
 margin: 16px 0;
 font-size: 16px;
 }
+.Tecnologias{
+    text-align: center;
+    padding-top: 2em auto;
+}
+.Tecnologias h1{
+    color:white;
+    text-align: center;
+}
+.Tecnologia{
+    padding-top: 2em;
+}
+.Tecnologia img{
+    transition: filter 0.3s ease;
+}
+.Tecnologia img:hover{
+    filter: drop-shadow(0 0 10px 5px rgba(255, 255, 255, 0.5));
+}
