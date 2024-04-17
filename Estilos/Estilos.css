@@ -209,6 +209,9 @@ color:aqua;
     color: white;
     box-shadow: 7px 13px 37px #000;
 }
+textarea{
+    resize: none;
+}
 
 .form-register h4{
     font-size: 22px;
