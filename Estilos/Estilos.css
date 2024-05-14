@@ -395,3 +395,20 @@ font-size: 16px;
     color: var(--colorFondoTextos);
     margin: 20px 0;
 }
+.desplazarse-hacia-arriba{
+    position: fixed;
+    right: 0.5%;
+    bottom: 3%;
+    cursor: pointer;
+  }
+  
+  .flecha-arriba{
+    width: 3rem;
+    height: 3rem;
+  }
+  #connection-status {
+    color: #333;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 50px;
+}

@@ -1,32 +1,17 @@
-// script.js
-function mostrarMensaje() {
-  alert("¡La conexión entre HTML, CSS y JavaScript funciona correctamente!");
+const statusDisplay = document.getElementById('connection-status');
+
+if (statusDisplay) {
+    statusDisplay.textContent = '¡HTML, CSS, and JavaScript connected!';
+} else {
+    console.error("Element with ID 'connection-status' not found.");
 }
-const imagenes = document.querySelectorAll('.proyecto img');
+// funcionalidad de desplazar hacia arriba
+const desplazarArriba = document.querySelector("#desplazarse-hacia-arriba");
 
-imagenes.forEach(imagen => {
-  imagen.addEventListener('click', (event) => {
-    event.preventDefault();
-    imagen.classList.add('imagen-ampliada');
-
-    // Opcional: agregar superposición
-    const overlayAmpliado = document.querySelector('.overlay-ampliado');
-    if (overlayAmpliado) {
-      overlayAmpliado.classList.add('overlay-ampliado-activo');
-    }
+desplazarArriba.addEventListener("click", () => {
+  window.scrollTo({
+    top: 0,
+    left: 0,
+    behavior: "smooth",
   });
-});
-
-document.addEventListener('click', (event) => {
-  if (!event.target.classList.contains('imagen-ampliada')) {
-    imagenes.forEach(imagen => {
-      imagen.classList.remove('imagen-ampliada');
-    });
-
-    // Opcional: eliminar superposición
-    const overlayAmpliado = document.querySelector('.overlay-ampliado');
-    if (overlayAmpliado) {
-      overlayAmpliado.classList.remove('overlay-ampliado-activo');
-    }
-  }
 });
