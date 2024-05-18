@@ -496,6 +496,12 @@ opacity: 1;
     height:350px;
     box-shadow: 0 0 10px rgba(0, 0, 0, .5);
     border-radius: 10px;
+    margin: 0 0 2em 2em;
+    margin-bottom: 2em;
+}
+.ImagenesPorta .porta{
+    width: 50%;
+    height: 25%;
 }
 .Colores2{
     display: flex;
@@ -536,6 +542,48 @@ opacity: 1;
 }
 
 .Colores2 .overlay:hover p{
+color: #ffffff;
+opacity: 1;
+}
+.Colores3{
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+}
+.Colores p{
+    position: relative;
+}
+.Colores3 .inner1{
+    background-color: #fd8000;
+}
+.Colores3 .inner2{
+    background-color: #e3f50f;
+}
+.Colores3 .inner3{
+    background-color: #08a816;
+}
+.Colores3 .inner4{
+    background-color: #49326b;
+}
+
+.Colores3 p{
+    position: relative;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    /* background: linear-gradient(rgba(25, 28, 50, 0.9), rgba(70, 77, 126, 0.9)); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: 0.5s;
+    color: #fff;
+    font-size: 20px; 
+    opacity: 0;
+    padding: 25px;
+}
+
+.Colores3 .overlay:hover p{
 color: #ffffff;
 opacity: 1;
 }
