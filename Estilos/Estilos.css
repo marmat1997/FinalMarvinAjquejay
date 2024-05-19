@@ -587,3 +587,6 @@ opacity: 1;
 color: #ffffff;
 opacity: 1;
 }
+.ImagenesPorta img:hover {
+    transform: scale(1.2); /* Amplía la imagen al hacer hover */
+}
